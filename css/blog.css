@@ -1,0 +1,50 @@
+:root {
+  --main-color:#FFC720;
+  --dark-color:#071C33;
+  --light-color:#eee;
+  --transition:0.3s ;
+}
+/* blog-content */
+.blog-content {
+  background-color: var(--light-color);
+  padding: 20px;
+  border-bottom: 3px solid var(--main-color);
+  margin-bottom: 30px;
+}
+.blog-content .blog-text h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.blog-content .blog-text span {
+  color: var(--main-color);
+}
+.blog-content .blog-text p {
+  margin-top: 15px;
+}
+
+.blog-content .blog-text .btn{
+  border: 0;
+  outline: 0;
+}
+.blog-content .blog-text .btn:hover {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+/* blog-content */
+
+#btn {
+  transform: rotate(-90deg);
+}
+.pagination .page-item .active {
+  background-color: var(--main-color);
+  color: #000;
+}
+.last-news .link > span {
+  color: #000;
+}
+.last-news ul li {
+  transition: var(--transition);
+}
+.last-news ul  li:hover {
+  background-color: #ccccccd6;
+}
